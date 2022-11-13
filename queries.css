@@ -1,0 +1,93 @@
+@media screen and (max-width: 900px) {
+  .header-nav nav {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .header-nav nav a:first-child {
+    display: none;
+  }
+  .about-flex {
+    flex-wrap: wrap-reverse;
+    padding: 5rem 1rem;
+  }
+
+  .about-img {
+    padding-bottom: 5rem;
+  }
+  .about__left {
+    margin-right: 1rem;
+  }
+
+  .about p {
+    margin-bottom: 3rem;
+    line-height: 2rem;
+    font-size: 1.3rem;
+  }
+
+  .square {
+    bottom: 8rem;
+  }
+
+  .project-cards-container {
+    justify-content: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .intro-btn {
+    font-size: 1.6rem;
+    min-width: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 4rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .screen-body {
+    padding: 2em;
+  }
+
+  .screen-body-item {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .screen-body {
+    flex-direction: column;
+  }
+
+  .screen-body-item.left {
+    margin-bottom: 3rem;
+  }
+
+  .app-title {
+    flex-direction: row;
+  }
+
+  .app-title span {
+    margin-right: 1.2rem;
+  }
+
+  .app-title:after {
+    display: none;
+  }
+
+  .project-cards-container {
+    grid-template-columns: 1fr;
+    gap: 6rem;
+  }
+
+  .container {
+    padding: 0 2rem;
+  }
+
+  .introduction h1 {
+    font-size: 3.5rem;
+    font-weight: 500;
+  }
+}
